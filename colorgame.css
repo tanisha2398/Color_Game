@@ -1,5 +1,7 @@
 body{
 	background-color: #232323;
+	margin: 0;
+	font-family: "Comic Sans MS", cursive, sans-serif;
 }
 #container{
 	max-width: 600px;
@@ -11,15 +13,49 @@ body{
 	padding-bottom: 30%;
 	float: left;
 	margin: 1.66%; 
+	border-radius: 15%;
+	transition: background 0.6s;
 }
 h1{
 	color: white;
 	text-align: center;
+	background: #C39BD3;
+	text-transform: uppercase;
+	padding: 20px 0;
+	line-height: 1.1;
+	margin: 0;
+	font-weight: normal;
 }
-
+#text{
+	font-size: 200%;
+}
+#message{
+	display: inline-block;
+	width: 20%;
+}
+button:hover{
+	color: white;
+	background: #C39BD3;
+}
+button{
+	border: none;
+	transition: all 0.3s;
+	background: none;
+	text-transform: uppercase;
+	color: #C39BD3;
+	font-weight: 700;
+	height: 100%;
+	letter-spacing: 1px;
+	outline: none;
+	font-size: inherit;
+}
 #stripe{
 	background-color: white;
 	height: 30px;
 	text-align: center;
 	color: black;
+}
+.selected{
+	background: #C39BD3;
+	color: white;
 }
